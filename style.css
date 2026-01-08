@@ -1,0 +1,49 @@
+/* common section */
+
+*{
+    max-width: 1350px;
+    margin: auto;
+   
+}
+/* button section */
+.btn{
+    background-color: #30B868;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+.btn:hober{
+    background-color: #555555;
+    color: #30B868;
+}
+
+
+
+/* Navbar-saction */
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 16px 120px 16px 120px
+    
+
+    
+
+}
+.navbar img{
+    margin: 10px;
+}
+
+.nav-tag{
+    display: flex;
+    gap: 50px;
+    font-weight:500;
+
+
+}
