@@ -43,8 +43,8 @@ body {
     cursor: pointer;
 
 }
-.btn:hober{
-    background-color: #555555;
+.btn:hover{
+    background-color: rgb(67, 37, 0);
     
 }
 
@@ -66,6 +66,10 @@ nav {
     font-weight:500;
 
 }
+navbar p{
+    width: 500;
+height: 24px;
+}
 
 
 
@@ -78,6 +82,7 @@ nav {
     background: url("./assets/hero-bg.png") no-repeat rgba(0, 25, 49, 0.8);
     padding: 70px;
     margin: 20px auto;   
+    background-size: cover;  
 }
 .hero-parent h1{
     margin: 10px 0;
@@ -188,7 +193,7 @@ BRAIN SECTION */
     display: flex;
     align-items: center;     
     gap: 50px;
-    margin: 120px auto;
+    margin: 100px auto;
 }
 
 .brain-sec img{
@@ -314,7 +319,10 @@ BRAIN SECTION */
 .foot-end p{
     padding: 30px;
 }
-
+.foot-end hr{
+    border: 1px solid var(--DS New/Colors/Stroke/Gray-Light, rgba(229, 231, 235, 1));
+    opacity: 0.2;
+}
 
 
 
