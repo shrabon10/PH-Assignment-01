@@ -122,3 +122,56 @@ nav {
     padding: 10px 0;
     justify-content: space-around;
 }
+
+/* pillar */
+.pillar-of-parents{
+
+}
+
+.pillar-card-parent{
+    display: flex;
+    gap:2px;
+    margin: 30px;
+}
+
+
+
+.head-sec-titel p{
+    color: rgba(98, 115, 130, 1);
+    text-align: center;
+    
+}
+.head-sec-titel h1{
+    text-align: center;
+    padding: 20px 30px;
+    
+
+}
+.pillar-card img{
+    width: 50px;
+    height: 50px;
+    background: rgba(249, 85, 85, 1);
+    border-radius: 100%;
+    padding: auto;
+}
+.pillar-card p{
+    color: rgba(98, 115, 130, 1);
+}
+.pillar-card h2{
+     text-align: center;    
+  white-space: wrap;    
+  overflow: hidden;       
+  text-overflow: ellipsis;
+}
+.pillar-card{
+    background-color: white;
+    border-radius: 2px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 320px;
+    margin: 20px;
+    box-shadow: #121212;
+}
